@@ -1,0 +1,21 @@
+size(500,500);
+background(255);
+PFont font;
+font = loadFont("AmericanTypewriter-Bold-48.vlw");
+fill(242,204,47,160);
+textFont(font);
+textSize(60);
+text("LINEAR",0, 60);
+font = loadFont("BanglaMN-Bold-48.vlw");
+fill(0);
+textFont(font);
+textSize(70);
+text("Structures", 0, 140);
+textSize(80);
+text("1234", 0, 200);
+font = loadFont("AmericanTypewriter-Bold-48.vlw");
+fill(242,204,47,160);
+textFont(font);
+textSize(90);
+text("5678", 0, 300);
+
